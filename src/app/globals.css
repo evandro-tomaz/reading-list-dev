@@ -27,3 +27,9 @@
         @apply text-2xl;
     }
 }
+
+@layer components {
+    .btn, button[type=submit] {
+        @apply inline-flex items-center px-5 py-1 gap-2 rounded-full shadow focus:outline-none transition-colors font-heading font-semibold bg-gray-700 hover:bg-gray-800 text-white
+    }
+}
