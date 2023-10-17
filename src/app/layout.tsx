@@ -1,6 +1,7 @@
 import './globals.css'
 import type { Metadata } from 'next'
 import { Lora, Nunito } from 'next/font/google'
+import React from "react";
 
 const lora = Lora({
   subsets: ['latin'],
